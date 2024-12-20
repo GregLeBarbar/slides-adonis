@@ -145,7 +145,7 @@ C'est un élément central dans le flux de travail d'AdonisJS, permettant de gag
 
 # CLI d'AdonisJS : Ace
 
-<img src="../public/CLI.png" alt="CLI" style="width:55%;">
+<img src="./public/CLI.png" alt="CLI" style="width:55%;">
 
 ---
 
@@ -165,7 +165,7 @@ C'est un élément central dans le flux de travail d'AdonisJS, permettant de gag
 
 # Apprendre par la pratique : app surnoms des enseignants
 
-<img src="../public/app-surnoms-enseignants.png" alt="CLI" style="width:75%;">
+<img src="./public/app-surnoms-enseignants.png" alt="CLI" style="width:75%;">
 
 <a target="_blank" href="https://github.com/GregLeBarbar/application-surnoms-version-statique/archive/refs/heads/main.zip">https://github.com/GregLeBarbar/application-surnoms-version-statique/archive/refs/heads/main.zip</a>
 
@@ -192,7 +192,7 @@ npm init adonisjs@latest app-teachers -- --db=mysql
 # Etape 1 : Création du projet
 
 <div class="content">
-<img src="../public/create-project-app-teachers.png" style="width:55%;">
+<img src="./public/create-project-app-teachers.png" style="width:55%;">
 </div>
 
 ---
