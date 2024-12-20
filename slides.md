@@ -1,6 +1,6 @@
 ---
 theme: seriph
-background: "./public/background.avif"
+background: "/background.avif"
 title: AdonisJS
 # apply unocss classes to the current slide
 drawings:
