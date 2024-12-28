@@ -1,5 +1,5 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/slides-adonis/", // Par exemple, '/slides-adonis/'
+  base: "/", // Pour déployer il faut passer en '/slides-adonis/'
 });

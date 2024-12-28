@@ -1,11 +1,27 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Pour déployer sur github pages
 
-To start the slide show:
+## Git à jour
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
+Il faut avoir tout git push
 
-Edit the [slides.md](./slides.md) to see the changes.
+## Builder l'application
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+npm run build
+
+## Deployer l'application
+
+npm run deploy
+
+## Voir les slides sur github
+
+[https://greglebarbar.github.io/slides-adonis](https://greglebarbar.github.io/slides-adonis)
+
+Lorsqu'on est en cours, on peut :
+
+- sur un écran mettre les slides :
+  https://greglebarbar.github.io/slides-adonis
+
+- sur un autre écran, on peut en :
+  https://greglebarbar.github.io/slides-adonis/presenter
+
+grâce à ce là, dans les slides en mode presenter, on utilise les flèches
