@@ -4,6 +4,18 @@
 
 Il faut avoir tout git push
 
+## Modifier la config de vite
+
+Dans le fichier `vite.config.ts` il faut :
+
+```js
+import { defineConfig } from "vite";
+
+export default defineConfig({
+  base: "/", // Pour déployer il faut passer en '/slides-adonis/'
+});
+```
+
 ## Builder l'application
 
 npm run build

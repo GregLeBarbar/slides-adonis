@@ -127,34 +127,7 @@ Le <strong>pattern MVC</strong> (Model-View-Controller) est un modèle d'archite
 
 # Le pattern MVC
 
-```mermaid {theme: 'neutral', scale: 1}
-graph TD
-    UserInput[Interface Utilisateur] -->|Envoie des commandes| Controller[Contrôleur]
-    Controller -->|Demande ou met à jour| Model[Modèle]
-    Model -->|Retourne les données| Controller
-    Controller -->|Notifie les changements| View[Vue]
-    View -->|Affiche les données| UserInput
-```
-
----
-
-# MVC avec AdonisJS
-
-```mermaid {theme: 'neutral', scale: 0.75}
-graph TD
-    classDef smallGraph fill:#f9f9f9,stroke:#333,stroke-width:0.8,font-size:12px;
-
-    User[Entrée utilisateur] -->|Envoie une requête HTTP| Route[Routes]
-    Route -->|Dirige la requête| Controller[Contrôleur]
-    Controller -->|Interagit avec| Model[Modèle]
-    Model -->|Accède à| Database[Base de données]
-    Database -->|Retourne les données| Model[Modèle]
-    Model -->|Renvoie les données| Controller[Contrôleur]
-    Controller -->|Envoie les données| View[Vue]
-    View -->|Affiche le contenu| User
-
-    class User,Route,Controller,Model,Database,View smallGraph;
-```
+<img src="/equipe-mvc.png" style="width:70%;">
 
 ---
 
